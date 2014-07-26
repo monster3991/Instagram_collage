@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84971B3C198104D800AADD62 /* VSStartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84971B3A198104D800AADD62 /* VSStartScreenViewController.m */; };
+		84971B3D198104D800AADD62 /* VSStartScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84971B3B198104D800AADD62 /* VSStartScreenViewController.xib */; };
+		84971B40198132AA00AADD62 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84971B3F198132AA00AADD62 /* Reachability.m */; };
+		84971B41198132AA00AADD62 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84971B3F198132AA00AADD62 /* Reachability.m */; };
+		849EE8F419830CA300892826 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849EE8F319830CA300892826 /* MessageUI.framework */; };
+		84A2A7BF1982800100D39980 /* VSPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2A7BD1982800100D39980 /* VSPreviewViewController.m */; };
+		84A2A7C01982800100D39980 /* VSPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2A7BE1982800100D39980 /* VSPreviewViewController.xib */; };
+		84A2A7C41982AFE100D39980 /* VSPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2A7C21982AFE100D39980 /* VSPhotoPickerViewController.m */; };
+		84A2A7C51982AFE100D39980 /* VSPhotoPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2A7C31982AFE100D39980 /* VSPhotoPickerViewController.xib */; };
 		84A2D81B19804C0F00C9D8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2D81A19804C0F00C9D8DE /* Foundation.framework */; };
 		84A2D81D19804C0F00C9D8DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2D81C19804C0F00C9D8DE /* CoreGraphics.framework */; };
 		84A2D81F19804C0F00C9D8DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2D81E19804C0F00C9D8DE /* UIKit.framework */; };
@@ -32,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84971B39198104D800AADD62 /* VSStartScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSStartScreenViewController.h; sourceTree = "<group>"; };
+		84971B3A198104D800AADD62 /* VSStartScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSStartScreenViewController.m; sourceTree = "<group>"; };
+		84971B3B198104D800AADD62 /* VSStartScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSStartScreenViewController.xib; sourceTree = "<group>"; };
+		84971B3E1981329B00AADD62 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		84971B3F198132AA00AADD62 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		849EE8F319830CA300892826 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84A2A7BC1982800100D39980 /* VSPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSPreviewViewController.h; path = ../VSPreviewViewController.h; sourceTree = "<group>"; };
+		84A2A7BD1982800100D39980 /* VSPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSPreviewViewController.m; path = ../VSPreviewViewController.m; sourceTree = "<group>"; };
+		84A2A7BE1982800100D39980 /* VSPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSPreviewViewController.xib; path = ../VSPreviewViewController.xib; sourceTree = "<group>"; };
+		84A2A7C11982AFE100D39980 /* VSPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSPhotoPickerViewController.h; sourceTree = "<group>"; };
+		84A2A7C21982AFE100D39980 /* VSPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSPhotoPickerViewController.m; sourceTree = "<group>"; };
+		84A2A7C31982AFE100D39980 /* VSPhotoPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSPhotoPickerViewController.xib; sourceTree = "<group>"; };
 		84A2D81719804C0F00C9D8DE /* Instagram_collage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_collage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A2D81A19804C0F00C9D8DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A2D81C19804C0F00C9D8DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849EE8F419830CA300892826 /* MessageUI.framework in Frameworks */,
 				84A2D81D19804C0F00C9D8DE /* CoreGraphics.framework in Frameworks */,
 				84A2D81F19804C0F00C9D8DE /* UIKit.framework in Frameworks */,
 				84A2D81B19804C0F00C9D8DE /* Foundation.framework in Frameworks */,
@@ -96,6 +118,7 @@
 		84A2D81919804C0F00C9D8DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				849EE8F319830CA300892826 /* MessageUI.framework */,
 				84A2D81A19804C0F00C9D8DE /* Foundation.framework */,
 				84A2D81C19804C0F00C9D8DE /* CoreGraphics.framework */,
 				84A2D81E19804C0F00C9D8DE /* UIKit.framework */,
@@ -107,8 +130,19 @@
 		84A2D82019804C0F00C9D8DE /* Instagram_collage */ = {
 			isa = PBXGroup;
 			children = (
+				84971B3E1981329B00AADD62 /* Reachability.h */,
 				84A2D82919804C0F00C9D8DE /* VSAppDelegate.h */,
+				84971B39198104D800AADD62 /* VSStartScreenViewController.h */,
+				84A2A7BC1982800100D39980 /* VSPreviewViewController.h */,
+				84A2A7C11982AFE100D39980 /* VSPhotoPickerViewController.h */,
+				84971B3F198132AA00AADD62 /* Reachability.m */,
 				84A2D82A19804C0F00C9D8DE /* VSAppDelegate.m */,
+				84971B3A198104D800AADD62 /* VSStartScreenViewController.m */,
+				84A2A7BD1982800100D39980 /* VSPreviewViewController.m */,
+				84A2A7C21982AFE100D39980 /* VSPhotoPickerViewController.m */,
+				84971B3B198104D800AADD62 /* VSStartScreenViewController.xib */,
+				84A2A7BE1982800100D39980 /* VSPreviewViewController.xib */,
+				84A2A7C31982AFE100D39980 /* VSPhotoPickerViewController.xib */,
 				84A2D82C19804C0F00C9D8DE /* Images.xcassets */,
 				84A2D82119804C0F00C9D8DE /* Supporting Files */,
 			);
@@ -220,7 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84971B3D198104D800AADD62 /* VSStartScreenViewController.xib in Resources */,
 				84A2D82519804C0F00C9D8DE /* InfoPlist.strings in Resources */,
+				84A2A7C01982800100D39980 /* VSPreviewViewController.xib in Resources */,
+				84A2A7C51982AFE100D39980 /* VSPhotoPickerViewController.xib in Resources */,
 				84A2D82D19804C0F00C9D8DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A2D82719804C0F00C9D8DE /* main.m in Sources */,
+				84971B3C198104D800AADD62 /* VSStartScreenViewController.m in Sources */,
+				84A2A7C41982AFE100D39980 /* VSPhotoPickerViewController.m in Sources */,
+				84A2A7BF1982800100D39980 /* VSPreviewViewController.m in Sources */,
+				84971B40198132AA00AADD62 /* Reachability.m in Sources */,
 				84A2D82B19804C0F00C9D8DE /* VSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84971B41198132AA00AADD62 /* Reachability.m in Sources */,
 				84A2D84019804C1000C9D8DE /* Instagram_collageTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +480,7 @@
 				84A2D84519804C1000C9D8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A2D84619804C1000C9D8DE /* Build configuration list for PBXNativeTarget "Instagram_collageTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +489,7 @@
 				84A2D84819804C1000C9D8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

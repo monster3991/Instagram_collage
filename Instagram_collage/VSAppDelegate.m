@@ -7,6 +7,7 @@
 //
 
 #import "VSAppDelegate.h"
+#import "VSStartScreenViewController.h"
 
 @implementation VSAppDelegate
 
@@ -14,8 +15,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    VSStartScreenViewController *MainViewController = [ [VSStartScreenViewController alloc] initWithNibName:nil bundle:nil ];
+    
+    UINavigationController *navigator = [ [UINavigationController alloc] init];//(first controller)
+    navigator.navigationBar.translucent = NO;
+    
+    [navigator pushViewController:MainViewController animated:YES];
+    self.window.rootViewController = navigator;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
